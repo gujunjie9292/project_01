@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='./js/jquery-3.5.0.min.js'></script>
+</head>
+<body>
+    <ul>
+        <li>1这是一个寂寞的天</li>
+        <li>2这是一个寂寞的天</li>
+        <li>3这是一个寂寞的天</li>
+        <li>4这是一个寂寞的天</li>
+        <li>5这是一个寂寞的天</li>
+        <li>6这是一个寂寞的天</li>
+        <li>7这是一个寂寞的天</li>
+        <li>8这是一个寂寞的天</li>
+        <li>9这是一个寂寞的天</li>
+        <li>10这是一个寂寞的天</li>
+        <li>11这是一个寂寞的天</li>
+        <li>12这是一个寂寞的天</li>
+        <li>13这是一个寂寞的天</li>
+        <li>14这是一个寂寞的天</li>
+        <li>15这是一个寂寞的天</li>
+        <li>16这是一个寂寞的天</li>
+        <li>17这是一个寂寞的天</li>
+        <li>18这是一个寂寞的天</li>
+        <li>19这是一个寂寞的天</li>
+        <li>20这是一个寂寞的天</li>
+    </ul>
+
+    <script>
+       $(function() {
+           $('li').each(function(index,dom) {
+               if(index % 2 == 0 ) {
+                   $(dom).css('backgroundColor','red')
+               } else {
+                   $(dom).css('backgroundColor','blue')
+               }
+           })
+       })
+    </script>
+</body>
+</html>
